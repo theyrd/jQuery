@@ -181,3 +181,52 @@ table {
     color: tomato;
     background: turquoise;
 }
+
+.myColorDiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem 2rem;
+    padding: 0.5rem;
+}
+
+#changeInput {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+#styledText {
+    text-align: center;
+}
+
+#textStyle {
+    vertical-align: middle;
+    padding: 1rem;
+}
+
+/* p {
+    text-decoration: underline;
+} */
+
+.bold {
+    font-weight:bold;
+}
+.italic {
+   font-style:italic;
+}
+.underline {
+   text-decoration: underline;
+}
+
+#myText {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+#output {
+    text-align: center;
+}
